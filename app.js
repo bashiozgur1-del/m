@@ -819,8 +819,7 @@ function startGame(character){
 
     // load a campfire image and draw it under particles
     const fireImg = new Image();
-    fireImg.crossOrigin = 'anonymous';
-    fireImg.src = 'pngimg.com - bonfire_PNG41.png'; // use the bonfire asset for the campfire
+    fireImg.src = 'https://bashiozgur1-del.github.io/m/pngimg.com%20-%20bonfire_PNG41.png'; // use the bonfire asset for the campfire
 
     // animated subtitles (small lines that appear) — keep for top text only; do not push the same text to cinematic canvas
     const subs = [];
