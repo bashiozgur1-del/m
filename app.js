@@ -1,12 +1,13 @@
 /* Updated game logic: improved jump (coyote time, variable jump), added TVs enemies, spikes obstacles, tightened platform layout and richer parallax background */
 
 // Data + UI logic for brutal Mortal Kombat style character select
-const CHARACTERS = [
-  { id: 'faik', name: 'Фаик', title: 'Бешеный клинок', portrait: '/Faik.jpeg' },
-  { id: 'ozgur', name: 'Озгюр', title: 'Тень степей', portrait: '/Bashmak.png' },
-  { id: 'murad', name: 'Мурад', title: 'Разрушитель', portrait: '/Murad.jpg' },
-  { id: 'shamka', name: 'Шамка', title: 'Брутальный рейнджер', portrait: '/1.png' },
+const CHARACTERS = [ 
+  { id: 'faik', name: 'Фаик', title: 'Бешеный клинок', portrait: 'Faik.jpeg' },
+  { id: 'ozgur', name: 'Озгюр', title: 'Тень степей', portrait: 'Bashmak.png' },
+  { id: 'murad', name: 'Мурад', title: 'Разрушитель', portrait: 'Murad.jpg' },
+  { id: 'shamka', name: 'Шамка', title: 'Брутальный рейнджер', portrait: '1.png' },
 ];
+
 
 // Helper to create element with classes
 function el(tag, cls = '', attrs = {}) {
